@@ -50,5 +50,10 @@ public class Member {
 			changeTeam(team);
 		}
 	}
+	
+	public Member(String username, int age) {
+		this.username = username;
+		this.age = age;
+	}
 
 }
